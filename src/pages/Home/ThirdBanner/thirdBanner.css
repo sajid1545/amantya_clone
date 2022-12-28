@@ -1,0 +1,23 @@
+.banner-circle {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    /* background: #FFE9B0; */
+    border-radius: 50%;
+    top: 20px;
+    right: 34%;
+
+}
+
+
+.banner-circle h1 {
+    position: absolute;
+    top: 26%;
+    right: 1%;
+    text-align: center;
+    color: #0a71af;
+    font-family: poppins;
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0px 0px 8px
+}

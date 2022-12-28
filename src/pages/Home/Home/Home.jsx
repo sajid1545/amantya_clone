@@ -1,5 +1,6 @@
 import React from 'react';
 import HomeBanner from '../HomeBanner/HomeBanner';
+import ThirdBanner from '../ThirdBanner/ThirdBanner';
 import TopSlider from '../TopSlider/TopSlider';
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
 		<div>
 			<TopSlider />
 			<HomeBanner />
+			<ThirdBanner/>
 		</div>
 	);
 };
