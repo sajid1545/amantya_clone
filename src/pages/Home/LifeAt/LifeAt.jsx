@@ -19,26 +19,30 @@ const LifeAt = () => {
 
 				<div className="flex text-center gap-10 my-10">
 					<div className="">
-						<img src={opportunities} alt="" />
+						<img
+							src={opportunities}
+							alt=""
+							className="hover:scale-110 duration-500 cursor-pointer"
+						/>
 						<p className="mt-5 text-[12px] text-[#212529]">Endless Opportunities</p>
 					</div>
 					<div className="">
-						<img src={timing} alt="" />
+						<img src={timing} alt="" className="hover:scale-110 duration-500 cursor-pointer" />
 						<p className="mt-5 text-[12px] text-[#212529]">Flexible Timing</p>
 					</div>
 					<div className="">
-						<img src={workLife} alt="" />
+						<img src={workLife} alt="" className="hover:scale-110 duration-500 cursor-pointer" />
 						<p className="mt-5 text-[12px] text-[#212529]">Work Life Integration</p>
 					</div>
 					<div className="">
-						<img src={health} alt="" />
+						<img src={health} alt="" className="hover:scale-110 duration-500 cursor-pointer" />
 						<p className="mt-5 text-[12px] text-[#212529]">Health Benefits</p>
 					</div>
 				</div>
 
 				<span className="mt-5">
 					<a href="#" className="text-lg text-[#F4824B] flex items-center gap-2 font-bold">
-                    Explore Life at Amantya {' '}
+						Explore Life at Amantya{' '}
 						<span>
 							<BsArrowRight />
 						</span>
@@ -47,7 +51,7 @@ const LifeAt = () => {
 			</div>
 
 			<div>
-				<img src={life} alt="" className='rounded-xl shadow-lg shadow-gray-500'/>
+				<img src={life} alt="" className="rounded-xl shadow-lg shadow-gray-500" />
 			</div>
 		</div>
 	);

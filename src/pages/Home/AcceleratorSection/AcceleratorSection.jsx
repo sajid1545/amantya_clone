@@ -18,11 +18,11 @@ const AcceleratorSection = () => {
 				</TabList>
 
 				<TabPanel className="w-[90%] mx-auto flex gap-10 mt-14">
-					<div className="lg:w-[60%]">
+					<div className="lg:w-2/4">
 						<img src={fiveG} alt="" className="w-full" />
 					</div>
 
-					<div className="w-full flex items-center gap-10">
+					<div className="lg:w-2/4 flex items-center gap-10">
 						<div className="">
 							<h1 className="font-bold  text-[40px]">5G</h1>
 							<p className="mb-4 text-lg text-[#565656]">
@@ -41,22 +41,22 @@ const AcceleratorSection = () => {
 							</span>
 						</div>
 
-						<div>
+						{/* <div>
 							<ul className="list-decimal text-xl font-bold cursor-pointer text-[#0070AD]">
 								<li className='hover:text-[#F26F29]'>5G SA Core</li>
 								<li className='hover:text-[#F26F29]'>5G UPF</li>
 								<li className='hover:text-[#F26F29]'>5G Network in a Box</li>
 								<li className='hover:text-[#F26F29]'>5G Caas</li>
 							</ul>
-						</div>
+						</div> */}
 					</div>
 				</TabPanel>
 				<TabPanel className="w-[90%] mx-auto flex gap-10">
-					<div className="lg:w-[60%]">
+					<div className="lg:w-2/4">
 						<img src={phone} alt="" className="w-full" />
 					</div>
 
-					<div className="w-full flex items-center gap-10">
+					<div className="lg:w-2/4 flex items-center gap-10">
 						<div className="">
 							<h1 className="font-bold  text-[40px]">IoT</h1>
 							<p className="mb-4 text-lg text-[#565656]">
@@ -72,14 +72,14 @@ const AcceleratorSection = () => {
 							</span>
 						</div>
 
-						<div>
+						{/* <div>
 							<ul className="list-decimal text-xl font-bold cursor-pointer text-[#0070AD]">
 								<li className='hover:text-[#F26F29]'>Indoor RTLS</li>
 								<li className='hover:text-[#F26F29]'>NB-IoT Tracker</li>
 								<li className='hover:text-[#F26F29]'>3G/4G Tracker</li>
 								<li className='hover:text-[#F26F29]'>Bluetooth Tracker</li>
 							</ul>
-						</div>
+						</div> */}
 					</div>
 				</TabPanel>
 

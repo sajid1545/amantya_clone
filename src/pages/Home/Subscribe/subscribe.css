@@ -1,0 +1,12 @@
+.subscribe-container {
+    background-color: #F4F9FF;
+    border-radius: 45px;
+    padding: 4% 4%;
+}
+
+.input-container button {
+    position: absolute;
+    left: 50%;
+    bottom: 7px;
+
+}
