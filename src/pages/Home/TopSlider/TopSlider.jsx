@@ -14,7 +14,7 @@ import marksman from '../../../assets/images/Marksman-daily.png';
 
 const TopSlider = () => {
 	return (
-		<>
+		<div className='mb-10'>
 			<Swiper
 				spaceBetween={30}
 				centeredSlides={true}
@@ -104,7 +104,7 @@ const TopSlider = () => {
 					</div>
 				</SwiperSlide>
 			</Swiper>
-		</>
+		</div>
 	);
 };
 

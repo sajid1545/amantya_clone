@@ -1,4 +1,13 @@
-.swiper-pagination-bullet {
+.swiper-pagination-bullet:hover {
+    background-color: orangered;
+}
+
+.swiper-pagination-bullet-active {
+    width: 15px;
+    height: 15px;
+    background-color: orangered;
+}
+
+.swiper-pagination {
     position: relative;
-    /* bottom: -20px; */
 }
