@@ -17,14 +17,14 @@ const AcceleratorSection = () => {
 					<Tab className="hover:underline underline-offset-4">iOT</Tab>
 				</TabList>
 
-				<TabPanel className="w-[90%] mx-auto flex gap-10 mt-14">
+				<TabPanel className="w-[90%] mx-auto flex gap-10 mt-14 flex-col sm:flex-row">
 					<div className="lg:w-2/4">
 						<img src={fiveG} alt="" className="w-full" />
 					</div>
 
-					<div className="lg:w-2/4 flex items-center gap-10">
+					<div className="lg:w-2/4 flex items-center gap-10 ">
 						<div className="">
-							<h1 className="font-bold  text-[40px]">5G</h1>
+							<h1 className="font-bold  text-[40px] text-center sm:text-left">5G</h1>
 							<p className="mb-4 text-lg text-[#565656]">
 								Amantya’s expertise in the rapidly evolving 5G ecosystem is underpinned by our
 								advanced accelerators, including 5G SA Core, 5G UPF, and 5G Core-as-a-service. We
@@ -51,14 +51,14 @@ const AcceleratorSection = () => {
 						</div> */}
 					</div>
 				</TabPanel>
-				<TabPanel className="w-[90%] mx-auto flex gap-10">
+				<TabPanel className="w-[90%] mx-auto flex gap-10 flex-col sm:flex-row">
 					<div className="lg:w-2/4">
 						<img src={phone} alt="" className="w-full" />
 					</div>
 
 					<div className="lg:w-2/4 flex items-center gap-10">
 						<div className="">
-							<h1 className="font-bold  text-[40px]">IoT</h1>
+							<h1 className="font-bold  text-[40px] text-center sm:text-left">IoT</h1>
 							<p className="mb-4 text-lg text-[#565656]">
                             We provide reliable, scalable, and secure end-to-end IoT-powered solutions and services, which can be tailored to integrate with each enterprise’s unique architecture and business needs. Moreover, our deep expertise in transformative technologies like 5G, AI ML, MEC, Robotics, and Cloud complement our IoT portfolio to unlock its true potential and create relevant and customized solutions for our clients.
 							</p>
