@@ -7,12 +7,12 @@ import man from '../../../assets/images/man.png';
 
 const HomeBanner = () => {
 	return (
-		<div className="w-[90%] mx-auto flex justify-between items-center gap-10 my-20">
+		<div className="w-[90%] mx-auto flex justify-between items-center flex-col sm:flex-row gap-10 my-20">
 			<div className="lg:w-2/4">
-				<h1 className="text-[40px] font-bold leading-10 mb-2">
+				<h1 className="text-[40px] font-bold leading-10 mb-2 text-center sm:text-left">
 					Your Go-to Partner for Next-gen Technologies
 				</h1>
-				<p className="text-[#565656] text-lg mt-4">
+				<p className="text-[#565656] text-lg mt-4 text-center sm:text-left">
 					With core competencies in next-gen technologies like 5G, Edge, Cloud, AI ML, IoT, we help
 					our clientele stay ahead of the curve.
 				</p>
@@ -20,18 +20,18 @@ const HomeBanner = () => {
 
 			{/* // cards */}
 
-			<div className="grid grid-cols-2 gap-5">
+			<div className="grid grid-cols-1 sm:grid-cols-2 gap-20 sm:gap-5">
 				{/* card - 1 */}
 				<div className="block py-10  px-4">
 					<img
 						alt="Signage"
 						src={fiveGBanner}
-						className="h-56 w-full  rounded-bl-3xl rounded-tr-3xl object-cover  sm:h-[400px] sm:w-[370px] "
+						className="w-full  rounded-bl-3xl rounded-tr-3xl object-cover  sm:h-[400px] sm:w-[370px] "
 					/>
 				</div>
 
 				{/* card -2 */}
-				<div className="block h-56 w-full  rounded-bl-3xl rounded-3xl object-cover  sm:h-[380px] sm:w-[320px] border-2 border-gray-500 py-8 px-5 shadow-[6px_4px_5px_0px_#718096]">
+				<div className="block  w-full  rounded-bl-3xl rounded-3xl object-cover  sm:h-[380px] sm:w-[320px] border-2 border-gray-500 py-8 px-5 shadow-[6px_4px_5px_0px_#718096]">
 					<img src={wireless} alt="" className="mx-auto" />
 					<div className="text-center">
 						<h1 className="font-bold mt-6 text-[24px]">Wireless</h1>
@@ -47,7 +47,7 @@ const HomeBanner = () => {
 				</div>
 
 				{/* card -3 */}
-				<div className="block h-56 w-full  rounded-bl-3xl rounded-3xl object-cover  sm:h-[380px] sm:w-[320px] border-2 border-gray-500 py-8 px-5 shadow-[6px_4px_5px_0px_#718096]">
+				<div className="block  w-full  rounded-bl-3xl rounded-3xl object-cover  sm:h-[380px] sm:w-[320px] border-2 border-gray-500 py-8 px-5 shadow-[6px_4px_5px_0px_#718096]">
 					<img src={digital} alt="" className="mx-auto" />
 					<div className="text-center">
 						<h1 className="font-bold mt-6 text-[24px]">Digital</h1>
@@ -67,7 +67,7 @@ const HomeBanner = () => {
 					<img
 						alt="Signage"
 						src={man}
-						className="h-56 w-full  rounded-bl-3xl rounded-tr-3xl object-cover  sm:h-[400px] sm:w-[370px] "
+						className="w-full  rounded-bl-3xl rounded-tr-3xl object-cover  sm:h-[400px] sm:w-[370px] "
 					/>
 				</div>
 			</div>
