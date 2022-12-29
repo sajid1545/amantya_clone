@@ -28,9 +28,9 @@ const TopSlider = () => {
 				modules={[Autoplay, Pagination, Navigation]}
 				className="mySwiper">
 				<SwiperSlide>
-					<div className="flex justify-between items-center">
+					<div className="flex justify-between items-center flex-col-reverse sm:flex-row">
 						<div className="pl-20 lg:w-2/4">
-							<h1 className=" font-bold text-[35px] leading-[50px]">
+							<h1 className=" font-bold text-[35px] leading-[50px] text-center sm:text-left">
 								Accelerating Innovation From Device To Cloud
 							</h1>
 							<p className="mt-5 text-xl text-[#565656]">
@@ -44,7 +44,7 @@ const TopSlider = () => {
 					</div>
 				</SwiperSlide>
 				<SwiperSlide>
-					<div className="flex justify-between items-center">
+					<div className="flex justify-between items-center flex-col-reverse sm:flex-row">
 						<div className="pl-20 lg:w-2/4">
 							<h1 className=" font-bold text-[35px] leading-[50px]">
 								Next-gen 5G Wireless Solutions From Labs to Private Network
@@ -62,7 +62,7 @@ const TopSlider = () => {
 					</div>
 				</SwiperSlide>
 				<SwiperSlide>
-					<div className="flex justify-between items-center">
+					<div className="flex justify-between items-center flex-col-reverse sm:flex-row">
 						<div className="pl-20 lg:w-2/4">
 							<h1 className=" font-bold text-[35px] leading-[50px]">
 								Quality-focused Digital Services From Ideation to Launch
@@ -80,7 +80,7 @@ const TopSlider = () => {
 					</div>
 				</SwiperSlide>
 				<SwiperSlide>
-					<div className="flex justify-between items-center">
+					<div className="flex justify-between items-center flex-col-reverse sm:flex-row">
 						<div className="pl-20 lg:w-2/4">
 							<h1 className=" font-bold text-[35px] leading-[50px]">
 								Recognized as “Best SME in Telecom Ecosystem” at IMC 2022
@@ -92,7 +92,7 @@ const TopSlider = () => {
 					</div>
 				</SwiperSlide>
 				<SwiperSlide>
-					<div className="flex justify-between items-center">
+					<div className="flex justify-between items-center flex-col-reverse sm:flex-row">
 						<div className="pl-20 lg:w-2/4">
 							<h1 className=" font-bold text-[35px] leading-[50px]">
 								Recognized as "Most Preferred Workplace in IT/ITES" for 2022-23 by Marksmen Daily

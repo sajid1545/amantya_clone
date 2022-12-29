@@ -11,12 +11,12 @@ const Home = () => {
 	return (
 		<div>
 			<TopSlider />
-			<HomeBanner />
+			{/* <HomeBanner />
 			<ThirdBanner />
 			<AcceleratorSection />
 			<LifeAt />
 			<Certifications />
-			<Subscribe />
+			<Subscribe /> */}
 		</div>
 	);
 };
