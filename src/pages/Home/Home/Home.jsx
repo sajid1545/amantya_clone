@@ -1,15 +1,14 @@
 import React from 'react';
-import HomeBanner from '../HomeBanner/HomeBanner';
-import TopSlider from '../TopSlider/TopSlider';
+import AcceleratorSection from '../AcceleratorSection/AcceleratorSection';
 
 const Home = () => {
 	return (
 		<div>
-			<TopSlider />
+			{/* <TopSlider />
 			<HomeBanner />
-			{/* <ThirdBanner />
+			<ThirdBanner /> */}
 			<AcceleratorSection />
-			<LifeAt />
+			{/* <LifeAt />
 			<Certifications />
 			<Subscribe /> */}
 		</div>

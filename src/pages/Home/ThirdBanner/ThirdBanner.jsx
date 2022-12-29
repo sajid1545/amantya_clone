@@ -26,7 +26,7 @@ const ThirdBanner = () => {
 				modules={[Pagination, Navigation]}
 				className="mySwiper">
 				<SwiperSlide>
-					<div className="flex bg-[#FFE9B0] justify-center items-center">
+					<div className="flex bg-[#FFE9B0] justify-center items-center flex-col-reverse sm:flex-row">
 						<div className="lg:w-[60%] p-20">
 							<img src={fiveGLab} alt="" className="w-[230px] h-[123px] pb-[32px]" />
 							<p className="mb-4 text-lg text-[#565656]">
@@ -54,7 +54,7 @@ const ThirdBanner = () => {
 					</div>
 				</SwiperSlide>
 				<SwiperSlide>
-					<div className="flex bg-[#F4F9FF] justify-center items-center">
+					<div className="flex bg-[#F4F9FF] justify-center items-center flex-col-reverse sm:flex-row">
 						<div className="lg:w-[60%] p-20">
 							<img src={astraLogo} alt="" className="w-[230px] h-[123px] pb-[32px]" />
 							<p className="mb-4 text-lg text-[#565656]">
